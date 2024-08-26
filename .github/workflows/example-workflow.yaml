@@ -13,4 +13,4 @@ jobs:
       run: echo "Hello World!"
 
   show-info:
-    uses: Lock128/github-shared-workflows/.github/workflows/show-information.yml@main
+    uses: Lock128/github-shared-workflows/.github/workflows/show-information.yaml@main
