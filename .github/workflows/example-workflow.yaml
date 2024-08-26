@@ -1,0 +1,13 @@
+# create a new github action that outputs hello worldname: Hello World
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Say Hello World
+      run: echo "Hello World!"
